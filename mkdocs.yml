@@ -2,7 +2,7 @@
 site_name: Notes on Courses
 site_url: https://notes.shellmad.com/
 site_description: >-
-  C++, Deep Learning, Cyber Security etc.
+  玄马教育官方网站，你值得拥有，加群获取更多服务:qq群 121811911.
 # Repository
 repo_name: Notes
 repo_url: https://github.com/ShellMad/notes
@@ -95,3 +95,35 @@ markdown_extensions:
 
 nav:
     - 首页: index.md
+    - c++11课程: 
+       - '01 c++11&14&17': 'c++11/01.md'
+       - '02 nullptr&constexpr': 'c++11/02.md'
+       - '03 迭代器及auto': 'c++11/03.md'
+       - '04 面向对象增强': 'c++11/04.md'
+       - '05 const_cast': 'c++11/05.md'
+       - '06 static_cast': 'c++11/06.md'
+       - '07 dynamic_cast': 'c++11/07.md'
+       - '08 reinterpret_cast': 'c++11/08.md'
+       - '09 lambda表达式': 'c++11/09.md'
+       - '10 函数对象包装器': 'c++11/10.md'
+       - '11 右值引用': 'c++11/11.md'
+       - '12 智能指针及RAII': 'c++11/12.md'
+       - '13 引用计数': 'c++11/13.md'
+       - '14 写时拷贝': 'c++11/14.md'
+       - '15 自己实现一个简易版智能指针': 'c++11/15.md'
+       - '16 为智能指针添加模板': 'c++11/16.md'
+       - '17 auto_ptr': 'c++11/17.md'
+       - '18 unique_ptr': 'c++11/18.md'
+       - '19 智能指针的循环引用问题': 'c++11/19.md'
+       - '20 shared_ptr与weak_ptr': 'c++11/20.md'
+       - '21 深入分析shared_ptr与weak_ptr的实现': 'c++11/21.md'
+       - '22 再次编写智能指针': 'c++11/22.md'
+       - '23 线程': 'c++11/23.md'
+       - '24 线程同步': 'c++11/24.md'
+       - '25 线程同步的方法': 'c++11/25.md'
+       - '26 自己封装线程同步锁': 'c++11/26.md'
+       - '27 mutex与lock_guard的使用': 'c++11/27.md'
+       - '28 死锁产生原因及避免': 'c++11/28.md'
+       - '29 条件变量': 'c++11/29.md'
+       - '30 生产者与消费者模型': 'c++11/30.md'
+
