@@ -1,11 +1,11 @@
 
-site_name: Notes of Doombeaker
-site_url: https://notes.veryfast.vip/
+site_name: Notes on Courses
+site_url: https://notes.shellmad.com/
 site_description: >-
   C++, Deep Learning, Cyber Security etc.
 # Repository
 repo_name: Notes
-repo_url: https://github.com/doombeaker/notes
+repo_url: https://github.com/ShellMad/notes
 edit_uri: "blob/master/docs/"
 
 # Copyright
@@ -49,6 +49,11 @@ extra:
   version:
     provider: mike
 
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
@@ -60,7 +65,8 @@ markdown_extensions:
   - markdown.extensions.meta
   - markdown.extensions.toc:
       permalink: true
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
