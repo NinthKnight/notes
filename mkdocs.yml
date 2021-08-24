@@ -49,7 +49,6 @@ plugins:
 extra:
   version:
     provider: mike
-  disqus: shellmad
 
 
 extra_javascript:
